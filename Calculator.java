@@ -11,8 +11,8 @@ public class Calculator {
     public static double divide(int a, int b){
         return ((double)a/(double)b);
     }
-    public static double perecent(int a, int b){
-        return ((double)b/100)*a;
+    public static double perecentage(int a, int b){
+        return ((double)b)/(double)a*100;
     }
 
     public static void main(String[] args){
@@ -20,6 +20,6 @@ public class Calculator {
         System.out.println(minus(10,5));
         System.out.println(multiply(6,6));
         System.out.println(divide(555,20));
-        System.out.println(perecent(1000, 30));
+        System.out.println(perecentage(1000, 30));
     }
 }
